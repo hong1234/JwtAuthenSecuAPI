@@ -80,7 +80,6 @@ public class SecurityConfig {
             // .authenticationProvider(authenticationProvider)
             // .exceptionHandling((exceptionHandling) -> exceptionHandling.authenticationEntryPoint(exceptionHandler))
         ;
-
         return http.build();
     }
 
